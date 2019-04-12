@@ -1,0 +1,214 @@
+$imgUrl: '../../images/a1905/pc/';
+
+.activity__container {
+  padding-bottom: 58px;
+  background: #5085e8 url("#{$imgUrl}bg_bottom.png") center bottom no-repeat;
+}
+
+.banner {
+  height: 1100px;
+  background: url("#{$imgUrl}banner.png") no-repeat center;
+}
+
+.activity-countdown {
+  margin-top: -264px;
+  text-align: center;
+  font-size: 0;
+  span {
+    display: inline-block;
+    line-height: 32px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #0c528e;
+  }
+  .countdown-text {
+    margin-left: 16px;
+  }
+  .countdown-date {
+    margin: 0 12px;
+    width: 87px;
+    height: 32px;
+    background-color: #a2f8ff;
+  }
+}
+
+.content-wrapper {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 0 auto;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  background: linear-gradient(180deg, #a3bffc 0%, #7eadfc 100%);
+  box-shadow: 2px 2px 29px 0 rgba(111, 123, 195, 0.47);
+  &.coupon-wrapper {
+    margin-top: 72px;
+  }
+  &.interest-wrapper {
+    margin-top: 82px;
+  }
+  &.rule-wrapper {
+    margin-top: 84px;
+    .content-container {
+      padding-bottom: 48px;
+    }
+  }
+  .content-container {
+    position: relative;
+    height: 100%;
+    padding-bottom: 25px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+  }
+  .content-title {
+    position: absolute;
+    top: -42px;
+    left: 50%;
+    margin-left: -159px;
+    width: 318px;
+    height: 80px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    background: url("#{$imgUrl}bg_title.png") no-repeat center;
+  }
+  .description-text {
+    padding-top: 64px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-size: 18px;
+    color: #863c0f;
+  }
+  .coupon-lists {
+    margin-top: 32px;
+    padding: 0 20px;
+    .coupon-item {
+      float: left;
+      width: 25%;
+      text-align: center;
+      .coupon-img {
+        margin: 0 auto;
+        width: 218px;
+        height: 146px;
+        background-repeat: no-repeat;
+        background-position: center;
+        &.wallet_100 {
+          background-image: url("#{$imgUrl}wallet_100.png");
+        }
+        &.wallet_300 {
+          background-image: url("#{$imgUrl}wallet_300.png");
+        }
+        &.wallet_1000 {
+          background-image: url("#{$imgUrl}wallet_1000.png");
+        }
+        &.wallet_2000 {
+          background-image: url("#{$imgUrl}wallet_2000.png");
+        }
+        &.interest_3 {
+          background-image: url("#{$imgUrl}interest_3.png");
+        }
+        &.interest_5 {
+          background-image: url("#{$imgUrl}interest_5.png");
+        }
+        &.interest_7 {
+          background-image: url("#{$imgUrl}interest_7.png");
+        }
+        &.interest_10 {
+          background-image: url("#{$imgUrl}interest_10.png");
+        }
+      }
+      .coupon-text {
+        margin: 12px;
+        line-height: 18px;
+        font-size: 14px;
+        color: #863c0f;
+      }
+      .coupon-btn {
+        margin-top: 18px;
+        width: 146px;
+        height: 42px;
+        font-size: 20px;
+        color: #ffffff;
+        opacity: 0.9;
+        border: 0;
+        background-image: linear-gradient(#fc754e, #fc754e),
+        linear-gradient(0deg, #fd704b 0%, #fc754f 45%, #f4914c 100%);
+        background-blend-mode: normal, normal;
+        border-radius: 21px;
+        cursor: pointer;
+        &.not-get {
+          background-image: linear-gradient(#d4e4ff, #d4e4ff),
+          linear-gradient(#ffb1b1, #ffb1b1);
+        }
+        &.is-get {
+          background-image: none;
+          background-color: #ffb1b1;
+        }
+      }
+    }
+  }
+  .href-text {
+    margin-top: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #863c0f;
+    .coupon-link {
+      font-size: 18px;
+      letter-spacing: 0;
+      text-decoration: underline;
+      color: #4e72e8;
+    }
+    .icon {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 10px;
+      width: 9px;
+      height: 9px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #7eadfc;
+      &.icon-left {
+        margin-right: 44px;
+      }
+      &.icon-right {
+        margin-left: 44px;
+      }
+    }
+  }
+  .rule-wrap {
+    padding: 62px 50px 0 30px;
+    .rule-tit {
+      float: left;
+      line-height: 30px;
+      font-size: 18px;
+      color: #4e72e8;
+    }
+    .rule-cont {
+      line-height: 30px;
+      font-size: 18px;
+      color: #863c0f;
+    }
+  }
+}
+
+.explain-wrapper {
+  margin-top: 14px;
+  text-align: center;
+  .explain {
+    line-height: 26px;
+    font-size: 18px;
+    color: #a9baff;
+  }
+}
