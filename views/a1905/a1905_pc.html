@@ -137,7 +137,7 @@
                 layer = layui.layer;
 
             // 倒计时
-            var endTime = new Date(2019, 5, 31).getTime(),
+            var endTime = new Date('2019/05/31 23:59:59').getTime(),
                 serverTime = new Date().getTime();
 
             util.countdown(endTime, serverTime, function(date, serverTime, timer){
